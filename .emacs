@@ -73,7 +73,6 @@
 ;; Some Erlang customizations
 (add-hook 'erlang-mode-hook 'my-erlang-mode-hook)
 
-
 ;;; Distel
 
 (add-to-list 'load-path "~/.emacs.d/distel/elisp")
@@ -104,6 +103,7 @@
 (add-to-list 'load-path "/usr/local/share/wrangler/elisp")
 (require 'wrangler)
 
+;; Date && time printing
 
 (defun date (arg)
   (interactive "P")
