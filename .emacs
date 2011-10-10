@@ -8,10 +8,6 @@
 (setenv "PATH" (concat (getenv "PATH") ":/opt/bin"))
 
 (custom-set-variables
-  ;; custom-set-variables was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
  '(c-basic-offset 4)
  '(c-label-minimum-indentation (quote set-from-style))
  '(c-strict-syntax-p t)
@@ -21,10 +17,6 @@
  '(jabber-account-list (quote (("kudryashov@jabber.kmyard.ru" (:password . "lehf12rq") (:port . 5222) (:connection-type . ssl)))))
  '(version-control-system (quote SVN)))
 (custom-set-faces
-  ;; custom-set-faces was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
  '(default ((t (:inherit nil :stipple nil :background "white" :foreground "black" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 98 :width normal :foundry "unknown" :family "DejaVu Sans Mono"))))
  '(show-paren-match ((((class color) (background light)) (:background "#bfe8df")))))
 
